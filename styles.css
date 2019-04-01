@@ -17,6 +17,6 @@ div.three1   {border-color:blue;border-width: 5px;border-style: solid;}
 div.three2   {border-color:red;border-width: 5px;border-style: solid;}
 div.three3   {border-color:green;border-width: 5px;border-style: solid;}
 
-input.submit {background-color: royalblue;width: 100px; height:40px;}
+input.submit {background-color: royalblue;color:orange;width: 100px; height:40px;}
 
 h5   {font-size: 18px}
