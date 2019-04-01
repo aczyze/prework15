@@ -1,0 +1,22 @@
+h1   {color:blue;font-size: 25px;font-weight: bold}
+h2   {color:red;font-size: 25px;font-weight: bold}
+h3   {color:green;font-size: 25px;font-weight: bold}
+h4   {color:yellow;font-size: 25px;font-weight: bold}
+
+a.one   {color:blue;font-size: 25px;font-weight: bold}
+a.two   {color:red;font-size: 25px;font-weight: bold}
+a.three   {color:green;font-size: 25px;font-weight: bold}
+a.four   {color:yellow;font-size: 25px;font-weight: bold}
+
+div.two1   {background-color:blue;display: inline;}
+div.two2   {background-color:red;display: inline;}
+div.two3   {background-color:green;display: inline;}
+div.two4   {background-color:yellow;display: inline;}
+
+div.three1   {border-color:blue;border-width: 5px;border-style: solid;}
+div.three2   {border-color:red;border-width: 5px;border-style: solid;}
+div.three3   {border-color:green;border-width: 5px;border-style: solid;}
+
+input.submit {background-color: royalblue;width: 100px; height:40px;}
+
+h5   {font-size: 18px}

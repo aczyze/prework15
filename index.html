@@ -5,41 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <li> <a style="color:blue;" href="#About us">About us</a> </li>
-        <li> <a style="color:red;" href="#Skills">Skills</a> </li>
-        <li> <a style="color:green;" href="#Portfolio">Portfolio</a> </li>
-        <li> <a style="color:yellow;" href="#Contact">Contact</a> </li>
+        <h1> <a class="one" href="#About us">About us</a> </h1>
+        <h2> <a class="two" href="#Skills">Skills</a> </h2>
+        <h3> <a class="three" href="#Portfolio">Portfolio</a> </h3>
+        <h4> <a class="four" href="#Contact">Contact</a> </h4>
     </header>
 
 <section id="About us">
-<h1 style="color:blue;"><font size="5">About us</font></h1>
+<h1>About us</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae saepe sed odio repellendus? Quis perspiciatis placeat nesciunt dignissimos error reiciendis mollitia magnam illo laboriosam. Illo ex doloribus inventore perferendis dolorem!</p>
 </section>
 
 <section id="Skills">
-<h1 style="color:red;"><font size="5">Skills</font></h1>
-<div style="display: inline;background-color:blue">1</div>
-<div style="display: inline;background-color:red">2</div>
-<div style="display: inline;background-color:green">3</div>
-<div style="display: inline;background-color:yellow">4</div>
+<h2>Skills</h2>
+<div class="two1">1</div>
+<div class="two2">2</div>
+<div class="two3">3</div>
+<div class="two4">4</div>
 </section>
 
 <section id="Portfolio">
-<h1><font size="5">Portfolio</font></h1>
-<div style="border-width: 5px;border-style: solid;border-color:blue;">1</div>
-<div style="border-width: 5px;border-style: solid;border-color:red;">2</div>
-<div style="border-width: 5px;border-style: solid;border-color:green">3</div>
+<h3>Portfolio</h3>
+<div class="three1">1</div>
+<div class="three2">2</div>
+<div class="three3">3</div>
 </section>
 
 <section id="Contact">
-<h1 style="color:yellow;"><font size="5">Contact</font></h1>
-<h2 ><font size="3">Imię i Nazwisko</font></h2>
-<li>numer telefonu 111</li>
-<li>mail 111@bbb</li>
-<li>adres ul.ccccc</li><br>
+<h4>Contact</h4>
+<address>
+<h5 >Imię i Nazwisko</h5>
+numer telefonu: 111<br>
+mail: <a href="mailto:webmaster@example.com">webmaster@example.com</a><br> 
+adres: ul.ccccc
+</address><br>
 
 <form action="">
     Imię:<br>
@@ -51,8 +54,8 @@
     Wiadomość:<br>
     <input required type="text" name="Wiadomość" placeholder="Wiadomość..."><br>
 
-    <input style="background-color: royalblue;"width="10" height="10" type="submit" value="Wyślij">
-
+    <input class="submit" value="Wyślij" type="submit">
+    <!--<input style="background-color: royalblue;"width="10" height="10" type="submit" value="Wyślij">-->
 </form> 
 
 
